@@ -9,7 +9,16 @@ import SwiftUI
 
 struct Header: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("facebook")
+                .font(.system(size: 25, weight: .bold))
+                .foregroundColor(Color(UIColor.ColorsTheme.facebookBlue))
+            Spacer()
+            Image(systemName: "magnifyingglass.circle.fill")
+                .resizable()
+                .frame(width: 28, height: 28)
+                .foregroundColor(Color("lightGray"))
+        }.padding(.all, 8.0)
     }
 }
 

@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		CB980A0B2A4551CD00AEBF49 /* facebook_ui_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A0A2A4551CD00AEBF49 /* facebook_ui_swiftApp.swift */; };
-		CB980A0D2A4551CD00AEBF49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A0C2A4551CD00AEBF49 /* ContentView.swift */; };
 		CB980A0F2A4551CE00AEBF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB980A0E2A4551CE00AEBF49 /* Assets.xcassets */; };
 		CB980A132A4551CE00AEBF49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB980A122A4551CE00AEBF49 /* Preview Assets.xcassets */; };
 		CB980A1D2A4551CE00AEBF49 /* facebook_ui_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A1C2A4551CE00AEBF49 /* facebook_ui_swiftTests.swift */; };
 		CB980A272A4551CE00AEBF49 /* facebook_ui_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A262A4551CE00AEBF49 /* facebook_ui_swiftUITests.swift */; };
 		CB980A292A4551CE00AEBF49 /* facebook_ui_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A282A4551CE00AEBF49 /* facebook_ui_swiftUITestsLaunchTests.swift */; };
+		CB980A3B2A4552DB00AEBF49 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A3A2A4552DB00AEBF49 /* Colors.swift */; };
+		CB980A402A45863E00AEBF49 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A3F2A45863E00AEBF49 /* extension.swift */; };
+		CB980A432A4587B600AEBF49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A422A4587B600AEBF49 /* ContentView.swift */; };
+		CB980A462A4587D600AEBF49 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A452A4587D600AEBF49 /* Header.swift */; };
+		CB980A482A4588F400AEBF49 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A472A4588F400AEBF49 /* Home.swift */; };
+		CB980A4C2A458A6B00AEBF49 /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A4A2A458A6B00AEBF49 /* PostsModel.swift */; };
+		CB980A4D2A458A6B00AEBF49 /* StoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A4B2A458A6B00AEBF49 /* StoriesModel.swift */; };
+		CB980A4F2A458AC800AEBF49 /* AddStoriesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A4E2A458AC800AEBF49 /* AddStoriesRow.swift */; };
+		CB980A512A458BE300AEBF49 /* StoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB980A502A458BE300AEBF49 /* StoryCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		CB980A072A4551CD00AEBF49 /* facebook_ui_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebook_ui_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB980A0A2A4551CD00AEBF49 /* facebook_ui_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebook_ui_swiftApp.swift; sourceTree = "<group>"; };
-		CB980A0C2A4551CD00AEBF49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB980A0E2A4551CE00AEBF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB980A102A4551CE00AEBF49 /* facebook_ui_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = facebook_ui_swift.entitlements; sourceTree = "<group>"; };
 		CB980A122A4551CE00AEBF49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +52,15 @@
 		CB980A222A4551CE00AEBF49 /* facebook_ui_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebook_ui_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB980A262A4551CE00AEBF49 /* facebook_ui_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebook_ui_swiftUITests.swift; sourceTree = "<group>"; };
 		CB980A282A4551CE00AEBF49 /* facebook_ui_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebook_ui_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB980A3A2A4552DB00AEBF49 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CB980A3F2A45863E00AEBF49 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		CB980A422A4587B600AEBF49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB980A452A4587D600AEBF49 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		CB980A472A4588F400AEBF49 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CB980A4A2A458A6B00AEBF49 /* PostsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
+		CB980A4B2A458A6B00AEBF49 /* StoriesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesModel.swift; sourceTree = "<group>"; };
+		CB980A4E2A458AC800AEBF49 /* AddStoriesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoriesRow.swift; sourceTree = "<group>"; };
+		CB980A502A458BE300AEBF49 /* StoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +111,10 @@
 		CB980A092A4551CD00AEBF49 /* facebook_ui_swift */ = {
 			isa = PBXGroup;
 			children = (
+				CB980A492A458A5C00AEBF49 /* Model */,
+				CB980A412A45879A00AEBF49 /* Views */,
+				CB980A392A4552C800AEBF49 /* config */,
 				CB980A0A2A4551CD00AEBF49 /* facebook_ui_swiftApp.swift */,
-				CB980A0C2A4551CD00AEBF49 /* ContentView.swift */,
 				CB980A0E2A4551CE00AEBF49 /* Assets.xcassets */,
 				CB980A102A4551CE00AEBF49 /* facebook_ui_swift.entitlements */,
 				CB980A112A4551CE00AEBF49 /* Preview Content */,
@@ -127,6 +145,44 @@
 				CB980A282A4551CE00AEBF49 /* facebook_ui_swiftUITestsLaunchTests.swift */,
 			);
 			path = facebook_ui_swiftUITests;
+			sourceTree = "<group>";
+		};
+		CB980A392A4552C800AEBF49 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				CB980A3A2A4552DB00AEBF49 /* Colors.swift */,
+				CB980A3F2A45863E00AEBF49 /* extension.swift */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		CB980A412A45879A00AEBF49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB980A442A4587CA00AEBF49 /* Home */,
+				CB980A422A4587B600AEBF49 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB980A442A4587CA00AEBF49 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB980A452A4587D600AEBF49 /* Header.swift */,
+				CB980A472A4588F400AEBF49 /* Home.swift */,
+				CB980A4E2A458AC800AEBF49 /* AddStoriesRow.swift */,
+				CB980A502A458BE300AEBF49 /* StoryCard.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB980A492A458A5C00AEBF49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB980A4A2A458A6B00AEBF49 /* PostsModel.swift */,
+				CB980A4B2A458A6B00AEBF49 /* StoriesModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB980A0D2A4551CD00AEBF49 /* ContentView.swift in Sources */,
+				CB980A462A4587D600AEBF49 /* Header.swift in Sources */,
+				CB980A3B2A4552DB00AEBF49 /* Colors.swift in Sources */,
+				CB980A402A45863E00AEBF49 /* extension.swift in Sources */,
+				CB980A432A4587B600AEBF49 /* ContentView.swift in Sources */,
+				CB980A482A4588F400AEBF49 /* Home.swift in Sources */,
+				CB980A512A458BE300AEBF49 /* StoryCard.swift in Sources */,
+				CB980A4C2A458A6B00AEBF49 /* PostsModel.swift in Sources */,
 				CB980A0B2A4551CD00AEBF49 /* facebook_ui_swiftApp.swift in Sources */,
+				CB980A4F2A458AC800AEBF49 /* AddStoriesRow.swift in Sources */,
+				CB980A4D2A458A6B00AEBF49 /* StoriesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
